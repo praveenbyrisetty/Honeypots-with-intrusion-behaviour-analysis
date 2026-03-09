@@ -1,4 +1,4 @@
-# Honeypots with Intrusion Behaviour Analysis
+# Honeypots with Intrusion Behaviour Analysis with ML
 
 This project implements honeypot scripts designed to detect, log, and analyze intrusion attempts. By simulating vulnerable services, we can capture malicious activity and study the behavior of attackers in a controlled environment.
 
