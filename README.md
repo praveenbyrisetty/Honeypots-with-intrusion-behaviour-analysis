@@ -83,9 +83,9 @@ backend/
     └── logger.py                   # Dual logging (DB + JSON files)
 ```
 
-## Getting Started
+## Workflow
 
-## workflow
+```
 ┌──────────────────────────────────────────────────────────────────┐
 │                        WORKFLOW                                  │
 └──────────────────────────────────────────────────────────────────┘
@@ -143,7 +143,9 @@ backend/
        ▼
   8. Ctrl+C → GRACEFUL SHUTDOWN
        └── Stop all honeypot threads cleanly
+```
 
+## Getting Started
 
 ### Prerequisites
 
