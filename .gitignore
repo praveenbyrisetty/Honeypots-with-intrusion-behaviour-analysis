@@ -7,6 +7,12 @@ __pycache__/
 dist/
 build/
 *.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
 
 # Virtual environments
 venv/
@@ -28,6 +34,9 @@ Desktop.ini
 backend/data/honeypot.db
 backend/data/logs/
 backend/data/ssh_host_rsa_key
+*.db
+*.sqlite3
+*.log
 
 # Environment
 .env
