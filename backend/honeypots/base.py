@@ -40,7 +40,7 @@ class BaseHoneypot(ABC):
         self._server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         self._server_socket.settimeout(1.0)  # allow periodic check for shutdown
         self._server_socket.bind((self.host, self.port))
-        self._server_socket.listen(5)
+        self._server_socket.listen(100)
         self._running = True
 
         self._thread = threading.Thread(target=self._accept_loop, daemon=True)
